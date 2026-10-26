@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AuraSound Pulse - Premium Wireless Audio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-2xl font-black tracking-tight text-indigo-600 flex items-center gap-2">
+        <i class="fa-solid fa-headphones-simple"></i>
+        <span>AuraSound</span>
+      </a>
+
+      <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-600">
+        <a href="#features" class="hover:text-indigo-600 transition">Features</a>
+        <a href="#benefits" class="hover:text-indigo-600 transition">Benefits</a>
+        <a href="#reviews" class="hover:text-indigo-600 transition">Reviews</a>
+        <a href="#pricing" class="hover:text-indigo-600 transition">Pricing</a>
+      </div>
+
+      <div class="hidden md:block">
+        <a href="#pricing" class="px-5 py-2.5 rounded-full bg-indigo-600 text-white font-medium text-sm hover:bg-indigo-700 transition shadow-md">
+          Pre-Order Now
+        </a>
+      </div>
+
+      <button id="menu-btn" class="md:hidden text-gray-700 hover:text-indigo-600 focus:outline-none" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars text-xl"></i>
+      </button>
+    </nav>
+
+    <div id="mobile-menu" class="hidden md:hidden border-t border-gray-100 bg-white px-6 py-4 flex flex-col space-y-3">
+      <a href="#features" class="text-gray-700 hover:text-indigo-600">Features</a>
+      <a href="#benefits" class="text-gray-700 hover:text-indigo-600">Benefits</a>
+      <a href="#reviews" class="text-gray-700 hover:text-indigo-600">Reviews</a>
+      <a href="#pricing" class="text-gray-700 hover:text-indigo-600">Pricing</a>
+      <a href="#pricing" class="w-full text-center px-4 py-2 rounded-lg bg-indigo-600 text-white font-medium">Pre-Order Now</a>
+    </div>
+  </header>
+
+  <section class="max-w-7xl mx-auto px-6 pt-16 pb-20 md:py-28 flex flex-col-reverse md:flex-row items-center gap-12">
+    <div class="flex-1 text-center md:text-left space-y-6">
+      <span class="inline-block py-1 px-3 text-xs font-semibold uppercase tracking-wider text-indigo-700 bg-indigo-100 rounded-full">
+        Next-Gen Acoustics
+      </span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+        Sound Engineered for Pure Immersion.
+      </h1>
+      <p class="text-lg text-gray-600 max-w-xl mx-auto md:mx-0">
+        Discover the AuraSound Pulse. Built with Active Noise Cancellation, 40-hour ultra-long battery life, and spatial audio that adapts to your environment.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
+        <a href="#pricing" class="w-full sm:w-auto px-8 py-3.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl shadow-lg shadow-indigo-200 transition">
+          Buy Now — $199
+        </a>
+        <a href="#features" class="w-full sm:w-auto px-8 py-3.5 border border-gray-300 hover:border-gray-400 font-semibold rounded-xl text-gray-700 transition">
+          Explore Features
+        </a>
+      </div>
+    </div>
+
+    <div class="flex-1 flex justify-center">
+      <div class="relative w-72 sm:w-96 lg:w-[440px] aspect-square rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-tr from-indigo-500 to-purple-500 p-2">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80" 
+             alt="AuraSound Pulse Headphones" 
+             class="w-full h-full object-cover rounded-2xl" />
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl font-extrabold text-gray-900">Precision Crafted Features</h2>
+        <p class="text-gray-600 mt-3">Engineered from ground up with studio-grade components.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-volume-xmark"></i>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Hybrid ANC</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">Dual microphone setup cuts out up to 98% of ambient city noise automatically.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-battery-full"></i>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">40h Battery</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">Enjoy playback all week. 10 minutes of fast USB-C charge gives 4 hours of juice.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-arrows-to-circle"></i>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">360° Spatial Audio</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">Dynamic head tracking creates cinema-grade immersive surround sound.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-feather"></i>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Featherweight Fit</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">Memory foam ear cushions wrapped in breathable protein leather for all-day wear.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="text-indigo-600 font-semibold text-sm uppercase">Why Choose AuraSound</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2 mb-6">Designed to elevate your daily productivity & focus</h2>
+          <ul class="space-y-5">
+            <li class="flex items-start gap-4">
+              <span class="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold">✓</span>
+              <div>
+                <strong class="text-gray-900 block font-semibold">Crystal-Clear Calls</strong>
+                <p class="text-sm text-gray-600">AI noise-reduction algorithms isolate your voice during Zoom and mobile calls.</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold">✓</span>
+              <div>
+                <strong class="text-gray-900 block font-semibold">Multipoint Seamless Pairing</strong>
+                <p class="text-sm text-gray-600">Connect to your laptop and smartphone simultaneously without reconnecting manually.</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold">✓</span>
+              <div>
+                <strong class="text-gray-900 block font-semibold">Custom Companion App</strong>
+                <p class="text-sm text-gray-600">Tailor the 10-band graphic EQ and touch controls straight from iOS or Android.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="rounded-3xl overflow-hidden shadow-xl border border-gray-200">
+          <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80" 
+               alt="Person wearing headphones" 
+               class="w-full h-[400px] object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-xl mx-auto mb-16">
+        <h2 class="text-3xl font-extrabold text-gray-900">Loved by Audio Enthusiasts</h2>
+        <p class="text-gray-600 mt-2">See what our early adopters have to say.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-50 border border-gray-100 rounded-2xl flex flex-col justify-between">
+          <p class="text-gray-600 italic mb-6">"The active noise cancellation matches headphones that cost twice as much. A must-have for open office spaces."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-indigo-500 text-white flex items-center justify-center font-bold text-sm">SL</div>
+            <div>
+              <h4 class="font-bold text-sm text-gray-900">Sarah Lin</h4>
+              <span class="text-xs text-gray-500">Software Engineer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 bg-gray-50 border border-gray-100 rounded-2xl flex flex-col justify-between">
+          <p class="text-gray-600 italic mb-6">"The battery life is absurd. I charged it once and went through a 14-hour flight and an entire conference week."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-purple-500 text-white flex items-center justify-center font-bold text-sm">MR</div>
+            <div>
+              <h4 class="font-bold text-sm text-gray-900">Marcus Reed</h4>
+              <span class="text-xs text-gray-500">Digital Nomad</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 bg-gray-50 border border-gray-100 rounded-2xl flex flex-col justify-between">
+          <p class="text-gray-600 italic mb-6">"Crisp highs, punchy sub-bass, and no ear fatigue after hours of mastering audio tracks. 10/10 recommendation."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold text-sm">EK</div>
+            <div>
+              <h4 class="font-bold text-sm text-gray-900">Elena Rostova</h4>
+              <span class="text-xs text-gray-500">Music Producer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-20 bg-indigo-900 text-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Ready for Studio Sound Anywhere?</h2>
+      <p class="text-indigo-200 mb-8 max-w-xl mx-auto">Order your AuraSound Pulse today with free global shipping and a 30-day money-back guarantee.</p>
+
+      <div class="bg-white text-gray-900 p-8 rounded-3xl max-w-sm mx-auto shadow-2xl">
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 bg-indigo-100 py-1 px-3 rounded-full">Limited Launch Offer</span>
+        <div class="mt-4 flex justify-center items-baseline">
+          <span class="text-5xl font-black tracking-tight">$199</span>
+          <span class="ml-2 text-gray-400 line-through text-lg">$249</span>
+        </div>
+        <ul class="text-left text-sm space-y-3 my-6 text-gray-600">
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Hard-shell travel case included</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Free worldwide express shipping</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> 2-Year complete warranty</li>
+        </ul>
+        <button class="w-full py-3.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl shadow-lg transition">
+          Claim Your Pulse
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+      <div class="text-center md:text-left">
+        <h3 class="text-xl font-bold text-white mb-2">AuraSound</h3>
+        <p class="text-sm">support@aurasound.com | +1 (800) 555-0199</p>
+      </div>
+
+      <div class="flex justify-center space-x-6 text-xl">
+        <a href="#" class="hover:text-white transition" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" class="hover:text-white transition" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="hover:text-white transition" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" class="hover:text-white transition" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+
+      <div class="text-center md:text-right text-sm">
+        <p>&copy; 2026 AuraSound Labs Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
